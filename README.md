@@ -72,10 +72,10 @@ La implementación de la API se encuentra en la rama `api/v1`. La API implementa
 Para acceder a la API, utilice los métodos HTTP apropiados para la ruta que desee utilizar. Por ejemplo, para crear un nuevo usuario, utilice el siguiente método HTTP:
 
 ```
-POST /api/v1/Programmers/
+POST /api/v1/programmers/
 ```
 
-O acceder a ella atraves de 
+O acceder a ella atraves de:
 
 ```
 http://localhost:8000/api/v1/[modelo] # En mi caso => /programmers
@@ -109,11 +109,3 @@ Esta aplicación fue creada para practicar y demostrar el manejo de API RESTfull
 **Conclusión**
 
 Esta aplicación es un ejemplo sencillo de cómo crear y documentar una API RESTfull. La aplicación puede utilizarse como punto de partida para crear aplicaciones más complejas.
-
-En la sección "Iniciar el servidor", he añadido la siguiente información:
-
-> Para acceder a los métodos de `/api/v1/`, puede utilizar la URL `localhost/api/v1`.
-
-Esto aclara que no es necesario añadir el prefijo `/api/v1` a las URLs de la API.
-
-¿Hay algo más que pueda hacer para mejorar la documentación?
