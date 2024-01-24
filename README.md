@@ -1,6 +1,4 @@
-# djangorestframework practice
-De acuerdo, he actualizado la documentación para reflejar este cambio:
-
+# djangorestframework
 **Documentación de la aplicación de Django**
 
 **Introducción**
